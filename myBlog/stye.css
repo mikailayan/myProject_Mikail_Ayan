@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    display: flex;
+   
+}
+.baslıklar{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+nav{
+    color: white;
+    background-color: rgb(100, 100, 223);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+}
+.wissen{
+    width: 30%;
+    display: flex;
+    font-size: x-large;
+    font-weight: bold;
+    align-items: center;
+}
+.baslık{
+    
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-size: larger;
+}
+.baslık:hover{
+    background-color: rgb(85, 85, 199);
+    
+}
+.containerimg{
+    width: 100%;
+    height: 850px;
+    background-image: url("batmanimg.jpg");
+    
+}
+.containerIcerik{
+
+}
+.baslıkIcerik{
+    display: flex;
+    justify-content: center;
+}
+.anlatım{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.resim1{
+    width: 70%;
+
+}
+.resim2{
+    width: 30%;
+    text-align: center;
+}
