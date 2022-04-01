@@ -1,7 +1,7 @@
 .container{
     display: flex;
     justify-content: space-around;
-    background-color: gray;
+    background-image: url("https://picsum.photos/id/11/1333/70");
     height: 70px;
     align-items: center;
     font-size: x-large;
@@ -27,14 +27,14 @@ button{
 }
 
 .slider{
-    height: 500px;
-    background-color: rgb(131, 92, 92);
+    height: 600px;
     display: flex;
     justify-content: center;
     
 }
 .img{
     position: absolute;
+    
 }
 
 .active{
@@ -44,21 +44,53 @@ button{
 
 .ileri{
     position: absolute;
-    top: 100px;
-    right: 0;
-    color: red;
+    top: 320px;
+    right: 20px;
+    color: black;
+    
     font-weight: bolder;
     font-size: large;
     cursor: pointer;
 }
 .geri{
     position: absolute;
-    top: 100px;
-    color: red;
+    top: 320px;
+    color: black;
     font-weight: bolder;
     font-size: large;
     cursor: pointer;
+    left: 20px;
+}
+.ileri:hover{
+    font-size: x-large;
+}
+.geri:hover{
+    font-size: x-large;
 }
 
-
+.containerCards{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    text-align: center;
+}
+.cardYazı{
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+}
+.projeler{
+    background-image: url("https://picsum.photos/id/120/1333");
+}
+.containerAcıklama{
+    display: flex;
+    justify-content: space-between;
+    background-image: url("https://picsum.photos/id/120/1333");
+    
+   
+}
+.acıklama{
+    color: white;
+}
 

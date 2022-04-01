@@ -1,6 +1,7 @@
  let index=0;
  
  $(document).ready(function(){
+     showSlide(index)
     $(".btn2").click(function(){
         $("#ac-2").toggle();
       });
@@ -25,18 +26,22 @@
         
     })
     $(".geri").click(function(){
+        console.log("bas index"+ index);
         if (index>0) {
-            index=index-1;
+            
+            console.log("if index" +index);
+            showSlide(--index)
         }
         else
         {
+            console.log("else index " + index);
             index=3
-        showSlide(index)
-
+            showSlide(index)
             
         }
-        showSlide(index)
-        console.log("geri " +index);
+        console.log("son " +index);
+        
+        
     })
     
 })
@@ -44,6 +49,7 @@
 let allSlide = $(".img");
 
 function showSlide(index){
+    console.log("fonksiyon",index)
     for(let i = 0; i<allSlide.length; i++)
     { 
         allSlide[i].style.display="none";
