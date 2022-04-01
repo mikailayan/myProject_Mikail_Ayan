@@ -1,0 +1,64 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    height: 70px;
+    align-items: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    font-style: oblique;
+    color: black;
+}
+button{
+    background-color: grey;
+    border: none;
+    cursor: pointer;
+}
+.acılır{
+    position: absolute;
+    color: black;
+    top: 50px;
+    display: none;
+    transition: 1s;
+    z-index: 5;
+}
+
+.slider{
+    height: 500px;
+    background-color: rgb(131, 92, 92);
+    display: flex;
+    justify-content: center;
+    
+}
+.img{
+    position: absolute;
+}
+
+.active{
+    display: block;
+}
+
+
+.ileri{
+    position: absolute;
+    top: 100px;
+    right: 0;
+    color: red;
+    font-weight: bolder;
+    font-size: large;
+    cursor: pointer;
+}
+.geri{
+    position: absolute;
+    top: 100px;
+    color: red;
+    font-weight: bolder;
+    font-size: large;
+    cursor: pointer;
+}
+
+
+
