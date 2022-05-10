@@ -145,3 +145,4 @@ F:\github\myProject_Mikail_Ayan\MVCProjeKampı\MVCProjeKampıUI\obj\Debug\net5.0
 F:\github\myProject_Mikail_Ayan\MVCProjeKampı\MVCProjeKampıUI\obj\Debug\net5.0\ref\MVCProjeKampıUI.dll
 F:\github\myProject_Mikail_Ayan\MVCProjeKampı\MVCProjeKampıUI\obj\Debug\net5.0\MVCProjeKampıUI.pdb
 F:\github\myProject_Mikail_Ayan\MVCProjeKampı\MVCProjeKampıUI\obj\Debug\net5.0\MVCProjeKampıUI.genruntimeconfig.cache
+F:\github\myProject_Mikail_Ayan\MVCProjeKampı\MVCProjeKampıUI\obj\Debug\net5.0\Razor\Views\Category\AddCategory.cshtml.g.cs

@@ -18,7 +18,7 @@ namespace BusinessLayer.Concrete
         }
         public void CategoryAddBL(Category entity)
         {
-            if (entity.CategoryName=="" || entity.CategoryName.Length<=3 || entity.CategoryDescription=="" || entity.CategoryName.Length>=51)
+            if (entity.CategoryName == "" || entity.CategoryName.Length <= 3 || entity.CategoryDescription == "" || entity.CategoryName.Length >= 51)
             {
                 //hata mesajı
             }
@@ -26,6 +26,6 @@ namespace BusinessLayer.Concrete
             {
                 repo.Insert(entity);
             }
-        }
+    }
     }
 }

@@ -1,0 +1,12 @@
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\EntityLayer\bin\Debug\net5.0\EntityLayer.deps.json
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\EntityLayer\bin\Debug\net5.0\EntityLayer.dll
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\EntityLayer\bin\Debug\net5.0\ref\EntityLayer.dll
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\EntityLayer\bin\Debug\net5.0\EntityLayer.pdb
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.AssemblyReference.cache
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\EntityLayer\obj\Debug\net5.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfoInputs.cache
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfo.cs
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.CoreCompileInputs.cache
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb

@@ -1,0 +1,15 @@
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.deps.json
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.dll
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\DataAccessLayer\bin\Debug\net5.0\ref\DataAccessLayer.dll
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.pdb
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\DataAccessLayer\bin\Debug\net5.0\EntityLayer.dll
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\DataAccessLayer\bin\Debug\net5.0\EntityLayer.pdb
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.AssemblyReference.cache
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.AssemblyInfoInputs.cache
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.AssemblyInfo.cs
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.CopyComplete
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.dll
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\DataAccessLayer\obj\Debug\net5.0\ref\DataAccessLayer.dll
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.pdb

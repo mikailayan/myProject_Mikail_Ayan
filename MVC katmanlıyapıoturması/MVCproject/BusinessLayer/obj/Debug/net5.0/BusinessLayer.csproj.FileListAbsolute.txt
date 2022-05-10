@@ -1,0 +1,17 @@
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\BusinessLayer\bin\Debug\net5.0\BusinessLayer.deps.json
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\BusinessLayer\bin\Debug\net5.0\BusinessLayer.dll
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\BusinessLayer\bin\Debug\net5.0\ref\BusinessLayer.dll
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\BusinessLayer\bin\Debug\net5.0\BusinessLayer.pdb
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\BusinessLayer\bin\Debug\net5.0\DataAccessLayer.dll
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\BusinessLayer\bin\Debug\net5.0\EntityLayer.dll
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\BusinessLayer\bin\Debug\net5.0\DataAccessLayer.pdb
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\BusinessLayer\bin\Debug\net5.0\EntityLayer.pdb
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csproj.AssemblyReference.cache
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\BusinessLayer\obj\Debug\net5.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\BusinessLayer\obj\Debug\net5.0\BusinessLayer.AssemblyInfoInputs.cache
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\BusinessLayer\obj\Debug\net5.0\BusinessLayer.AssemblyInfo.cs
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csproj.CoreCompileInputs.cache
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csproj.CopyComplete
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\BusinessLayer\obj\Debug\net5.0\BusinessLayer.dll
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\BusinessLayer\obj\Debug\net5.0\ref\BusinessLayer.dll
+F:\github\myProject_Mikail_Ayan\MVC katmanlıyapıoturması\MVCproject\BusinessLayer\obj\Debug\net5.0\BusinessLayer.pdb
