@@ -10,3 +10,15 @@ C:\Users\mikail\source\repos\MVCProjeKampı\EntityLayer\obj\Debug\net5.0\EntityL
 C:\Users\mikail\source\repos\MVCProjeKampı\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
 C:\Users\mikail\source\repos\MVCProjeKampı\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
 C:\Users\mikail\source\repos\MVCProjeKampı\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
+F:\github\myProject_Mikail_Ayan\MVCProjeKampı\EntityLayer\bin\Debug\net5.0\EntityLayer.deps.json
+F:\github\myProject_Mikail_Ayan\MVCProjeKampı\EntityLayer\bin\Debug\net5.0\EntityLayer.dll
+F:\github\myProject_Mikail_Ayan\MVCProjeKampı\EntityLayer\bin\Debug\net5.0\ref\EntityLayer.dll
+F:\github\myProject_Mikail_Ayan\MVCProjeKampı\EntityLayer\bin\Debug\net5.0\EntityLayer.pdb
+F:\github\myProject_Mikail_Ayan\MVCProjeKampı\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.AssemblyReference.cache
+F:\github\myProject_Mikail_Ayan\MVCProjeKampı\EntityLayer\obj\Debug\net5.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+F:\github\myProject_Mikail_Ayan\MVCProjeKampı\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfoInputs.cache
+F:\github\myProject_Mikail_Ayan\MVCProjeKampı\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfo.cs
+F:\github\myProject_Mikail_Ayan\MVCProjeKampı\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.CoreCompileInputs.cache
+F:\github\myProject_Mikail_Ayan\MVCProjeKampı\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
+F:\github\myProject_Mikail_Ayan\MVCProjeKampı\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
+F:\github\myProject_Mikail_Ayan\MVCProjeKampı\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb

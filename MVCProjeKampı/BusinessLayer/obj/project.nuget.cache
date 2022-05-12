@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "h8PyAGqtadLRThd5NKF/S9NH0nW7ECRuwNLga9zanKkCsAmCm5Jb30I99547DKj2uGWwS895XjCs1naFi+wYnA==",
+  "dgSpecHash": "WPgCoLkGU+BoYfdNdMVHspgyv3A+tt0o/STOVq1aSCDfk2EIPhTeBfNacCp9WABKGcZmNfEMNwJknBtK+CkXjg==",
   "success": true,
   "projectFilePath": "F:\\github\\myProject_Mikail_Ayan\\MVCProjeKampı\\BusinessLayer\\BusinessLayer.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mikail\\.nuget\\packages\\fluentvalidation\\11.0.1\\fluentvalidation.11.0.1.nupkg.sha512",
     "C:\\Users\\mikail\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\mikail\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\mikail\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.16\\microsoft.data.sqlite.core.5.0.16.nupkg.sha512",
