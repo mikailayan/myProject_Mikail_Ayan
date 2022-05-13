@@ -1,0 +1,17 @@
+F:\github\myProject_Mikail_Ayan\Tektar1\Solution1\TekrarBusinessLayer\bin\Debug\net5.0\TekrarBusinessLayer.deps.json
+F:\github\myProject_Mikail_Ayan\Tektar1\Solution1\TekrarBusinessLayer\bin\Debug\net5.0\TekrarBusinessLayer.dll
+F:\github\myProject_Mikail_Ayan\Tektar1\Solution1\TekrarBusinessLayer\bin\Debug\net5.0\ref\TekrarBusinessLayer.dll
+F:\github\myProject_Mikail_Ayan\Tektar1\Solution1\TekrarBusinessLayer\bin\Debug\net5.0\TekrarBusinessLayer.pdb
+F:\github\myProject_Mikail_Ayan\Tektar1\Solution1\TekrarBusinessLayer\obj\Debug\net5.0\TekrarBusinessLayer.csproj.AssemblyReference.cache
+F:\github\myProject_Mikail_Ayan\Tektar1\Solution1\TekrarBusinessLayer\obj\Debug\net5.0\TekrarBusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+F:\github\myProject_Mikail_Ayan\Tektar1\Solution1\TekrarBusinessLayer\obj\Debug\net5.0\TekrarBusinessLayer.AssemblyInfoInputs.cache
+F:\github\myProject_Mikail_Ayan\Tektar1\Solution1\TekrarBusinessLayer\obj\Debug\net5.0\TekrarBusinessLayer.AssemblyInfo.cs
+F:\github\myProject_Mikail_Ayan\Tektar1\Solution1\TekrarBusinessLayer\obj\Debug\net5.0\TekrarBusinessLayer.csproj.CoreCompileInputs.cache
+F:\github\myProject_Mikail_Ayan\Tektar1\Solution1\TekrarBusinessLayer\obj\Debug\net5.0\TekrarBusinessLayer.dll
+F:\github\myProject_Mikail_Ayan\Tektar1\Solution1\TekrarBusinessLayer\obj\Debug\net5.0\ref\TekrarBusinessLayer.dll
+F:\github\myProject_Mikail_Ayan\Tektar1\Solution1\TekrarBusinessLayer\obj\Debug\net5.0\TekrarBusinessLayer.pdb
+F:\github\myProject_Mikail_Ayan\Tektar1\Solution1\TekrarBusinessLayer\bin\Debug\net5.0\TekrarDataAccessLayer.dll
+F:\github\myProject_Mikail_Ayan\Tektar1\Solution1\TekrarBusinessLayer\bin\Debug\net5.0\TekrarEntityLayer.dll
+F:\github\myProject_Mikail_Ayan\Tektar1\Solution1\TekrarBusinessLayer\bin\Debug\net5.0\TekrarDataAccessLayer.pdb
+F:\github\myProject_Mikail_Ayan\Tektar1\Solution1\TekrarBusinessLayer\bin\Debug\net5.0\TekrarEntityLayer.pdb
+F:\github\myProject_Mikail_Ayan\Tektar1\Solution1\TekrarBusinessLayer\obj\Debug\net5.0\TekrarBusinessLayer.csproj.CopyComplete

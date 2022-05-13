@@ -1,0 +1,12 @@
+F:\github\myProject_Mikail_Ayan\Tektar1\Solution1\TekrarEntityLayer\bin\Debug\net5.0\TekrarEntityLayer.deps.json
+F:\github\myProject_Mikail_Ayan\Tektar1\Solution1\TekrarEntityLayer\bin\Debug\net5.0\TekrarEntityLayer.dll
+F:\github\myProject_Mikail_Ayan\Tektar1\Solution1\TekrarEntityLayer\bin\Debug\net5.0\ref\TekrarEntityLayer.dll
+F:\github\myProject_Mikail_Ayan\Tektar1\Solution1\TekrarEntityLayer\bin\Debug\net5.0\TekrarEntityLayer.pdb
+F:\github\myProject_Mikail_Ayan\Tektar1\Solution1\TekrarEntityLayer\obj\Debug\net5.0\TekrarEntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+F:\github\myProject_Mikail_Ayan\Tektar1\Solution1\TekrarEntityLayer\obj\Debug\net5.0\TekrarEntityLayer.AssemblyInfoInputs.cache
+F:\github\myProject_Mikail_Ayan\Tektar1\Solution1\TekrarEntityLayer\obj\Debug\net5.0\TekrarEntityLayer.AssemblyInfo.cs
+F:\github\myProject_Mikail_Ayan\Tektar1\Solution1\TekrarEntityLayer\obj\Debug\net5.0\TekrarEntityLayer.csproj.CoreCompileInputs.cache
+F:\github\myProject_Mikail_Ayan\Tektar1\Solution1\TekrarEntityLayer\obj\Debug\net5.0\TekrarEntityLayer.dll
+F:\github\myProject_Mikail_Ayan\Tektar1\Solution1\TekrarEntityLayer\obj\Debug\net5.0\ref\TekrarEntityLayer.dll
+F:\github\myProject_Mikail_Ayan\Tektar1\Solution1\TekrarEntityLayer\obj\Debug\net5.0\TekrarEntityLayer.pdb
+F:\github\myProject_Mikail_Ayan\Tektar1\Solution1\TekrarEntityLayer\obj\Debug\net5.0\TekrarEntityLayer.csproj.AssemblyReference.cache
