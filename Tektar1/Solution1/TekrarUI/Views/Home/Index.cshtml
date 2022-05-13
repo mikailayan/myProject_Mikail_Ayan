@@ -1,4 +1,13 @@
 ﻿@using TekrarEntityLayer
 @model List<Product>
 
+
+@foreach (var item in Model)
+{
+
+    <img src="~/img/@item.ImageUrl" />
+    <div>ADI: @item.Name</div>
+    <div>Fiyatı: @item.Price</div>
     
+
+}

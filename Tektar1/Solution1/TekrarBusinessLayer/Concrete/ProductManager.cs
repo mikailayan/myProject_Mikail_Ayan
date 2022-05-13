@@ -36,24 +36,29 @@ namespace TekrarBusinessLayer.Concrete
             throw new NotImplementedException();
         }
 
+        public int GetCountByCategory(string category)
+        {
+            return _productRepository.GetCountByCategory(category);
+        }
+
         public List<Product> GetHomePageProducts()
         {
             return _productRepository.GetHomePageProducts();
         }
 
-        public List<Product> GetProductsByCategory(string name)
+        public List<Product> GetProductsByCategory(string name, int page, int pageSize)
         {
-            throw new NotImplementedException();
+            return _productRepository.GetProductsByCategory(name,page,pageSize);
         }
 
         public Product GetProductsDetails(string url)
         {
-            throw new NotImplementedException();
+            return _productRepository.GetProductsDetails(url);
         }
 
         public List<Product> GetSearchResult(string searchString)
         {
-            throw new NotImplementedException();
+            return _productRepository.GetSearchResult(searchString);
         }
 
         public void Update(Product entity)

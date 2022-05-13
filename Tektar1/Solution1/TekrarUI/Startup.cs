@@ -9,6 +9,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using TekrarBusinessLayer.Abstract;
+using TekrarBusinessLayer.Concrete;
+using TekrarDataAccessLayer.Abstract;
+using TekrarDataAccessLayer.Concrete;
 
 namespace TekrarUI
 {
@@ -24,6 +28,10 @@ namespace TekrarUI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<IProductRepository, EfCoreProductRepository>();
+            services.AddScoped<ICategoryRepository, EfCoreCategoryRepository>();
+            services.AddScoped<IProductService, ProductManager>();
+            services.AddScoped<ICategoryService, CategoryManager>();
             services.AddControllersWithViews();
         }
 
