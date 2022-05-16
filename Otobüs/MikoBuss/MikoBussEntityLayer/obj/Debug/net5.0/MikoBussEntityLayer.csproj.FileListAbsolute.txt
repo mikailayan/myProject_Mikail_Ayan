@@ -1,0 +1,12 @@
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussEntityLayer\bin\Debug\net5.0\MikoBussEntityLayer.deps.json
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussEntityLayer\bin\Debug\net5.0\MikoBussEntityLayer.dll
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussEntityLayer\bin\Debug\net5.0\ref\MikoBussEntityLayer.dll
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussEntityLayer\bin\Debug\net5.0\MikoBussEntityLayer.pdb
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussEntityLayer\obj\Debug\net5.0\MikoBussEntityLayer.csproj.AssemblyReference.cache
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussEntityLayer\obj\Debug\net5.0\MikoBussEntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussEntityLayer\obj\Debug\net5.0\MikoBussEntityLayer.AssemblyInfoInputs.cache
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussEntityLayer\obj\Debug\net5.0\MikoBussEntityLayer.AssemblyInfo.cs
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussEntityLayer\obj\Debug\net5.0\MikoBussEntityLayer.csproj.CoreCompileInputs.cache
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussEntityLayer\obj\Debug\net5.0\MikoBussEntityLayer.dll
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussEntityLayer\obj\Debug\net5.0\ref\MikoBussEntityLayer.dll
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussEntityLayer\obj\Debug\net5.0\MikoBussEntityLayer.pdb

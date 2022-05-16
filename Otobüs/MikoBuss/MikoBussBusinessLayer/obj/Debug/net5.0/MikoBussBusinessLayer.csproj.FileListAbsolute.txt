@@ -1,0 +1,17 @@
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussBusinessLayer\bin\Debug\net5.0\MikoBussBusinessLayer.deps.json
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussBusinessLayer\bin\Debug\net5.0\MikoBussBusinessLayer.dll
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussBusinessLayer\bin\Debug\net5.0\ref\MikoBussBusinessLayer.dll
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussBusinessLayer\bin\Debug\net5.0\MikoBussBusinessLayer.pdb
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussBusinessLayer\bin\Debug\net5.0\MikoBussEntityLayer.dll
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussBusinessLayer\bin\Debug\net5.0\MikoBussEntityLayer.pdb
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussBusinessLayer\obj\Debug\net5.0\MikoBussBusinessLayer.csproj.AssemblyReference.cache
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussBusinessLayer\obj\Debug\net5.0\MikoBussBusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussBusinessLayer\obj\Debug\net5.0\MikoBussBusinessLayer.AssemblyInfoInputs.cache
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussBusinessLayer\obj\Debug\net5.0\MikoBussBusinessLayer.AssemblyInfo.cs
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussBusinessLayer\obj\Debug\net5.0\MikoBussBusinessLayer.csproj.CoreCompileInputs.cache
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussBusinessLayer\obj\Debug\net5.0\MikoBussBusinessLayer.csproj.CopyComplete
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussBusinessLayer\obj\Debug\net5.0\MikoBussBusinessLayer.dll
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussBusinessLayer\obj\Debug\net5.0\ref\MikoBussBusinessLayer.dll
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussBusinessLayer\obj\Debug\net5.0\MikoBussBusinessLayer.pdb
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussBusinessLayer\bin\Debug\net5.0\MikoBussDataAccessLayer.dll
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussBusinessLayer\bin\Debug\net5.0\MikoBussDataAccessLayer.pdb
