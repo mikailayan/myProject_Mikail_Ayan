@@ -1,0 +1,11 @@
+﻿@model MikoBussUI.Models.BiletGuzergah
+
+<h1>Bilet alma</h1>
+<form asp-action="BiletAl" method="post">
+    <input type="text"   asp-for="@Model.Ticket.TicketName" placeholder="Adınızı giriniz" />
+    <input type="text"  asp-for="@Model.Ticket.TicketSurname" placeholder="Soyadınızı giriniz" />
+    <input type="text"  asp-for="@Model.Ticket.TicketSeatNo" placeholder="Koltuk numarası giriniz" />
+    <input type="text"   asp-for="@Model.Ticket.TicketMail" placeholder="Mailinizi giriniz" />
+    <input type="text"  asp-for="@Model.Ticket.GuzergahId" />
+    <button>Bilet Al</button>
+</form>

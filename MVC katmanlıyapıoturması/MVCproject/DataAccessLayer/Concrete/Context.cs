@@ -17,5 +17,10 @@ namespace DataAccessLayer.Concrete
         {
             optionsBuilder.UseSqlite("Data Source=MVCdeneme");
         }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<ProductCategory>()
+                .HasKey(pc => new { pc.CategoryId, pc.ProductId });
+        }
     }
 }

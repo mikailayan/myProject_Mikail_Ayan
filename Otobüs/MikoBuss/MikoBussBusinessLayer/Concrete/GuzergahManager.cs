@@ -30,6 +30,11 @@ namespace MikoBussBusinessLayer.Concrete
             return _guzergahRepository.GetAll();
         }
 
+        public List<Guzergah> GetBusListByRoute(string nereden, string nereye)
+        {
+            return _guzergahRepository.GetBusListByRoute(nereden, nereye);
+        }
+
         public Guzergah GetById(int id)
         {
             throw new NotImplementedException();

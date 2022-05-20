@@ -1,7 +1,34 @@
-﻿@using MikoBussEntityLayer
-@model List<City>
+﻿@model MikoBussUI.Models.BiletGuzergah
 
-@foreach (var item in Model)
-{
-   
-}
+
+
+<div class="form-group" style="display: inline;">
+    <form asp-action="index" class="form-inline">
+        <select name="nereden" class="form-select form-select-lg mb-3" asp-items="@ViewBag.Sehirler" style="width: 505px; height:53px;">
+            <option selected disabled>Nereden</option>
+        </select>
+        <i class="fas fa-long-arrow-alt-right" style="padding: 0px 20px; font-size: 22px;"></i>
+        <select name="nereye" class="form-select form-select-lg mb-3" asp-items="@ViewBag.Sehirler" style="width: 505px; height:53px;">
+            <option selected disabled>Nereye</option>
+        </select>
+        <button type="submit" class="btn btn-danger btn-lg btn-block">Yolculuk Bul</button>
+    </form>
+    <div>
+        @if (Model.Guzergahs != null)
+        {
+            @foreach (var item in Model.Guzergahs)
+            {
+                <div class="table-bordered">
+                    <h3>@item.GuzergahStart</h3>
+                    <h3>@item.GuzergahEnd</h3>
+                    <h3>@item.GuzergahTarihi</h3>
+                    <h3>@item.GuzargahFiyat</h3>
+                    <form asp-action="BiletAl" method="get" >
+                        <h3><button>seç</button></h3>
+                    </form>
+                </div>
+            }
+        }
+
+    </div>
+</div>

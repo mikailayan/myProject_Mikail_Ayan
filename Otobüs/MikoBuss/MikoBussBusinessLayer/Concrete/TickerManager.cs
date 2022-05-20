@@ -17,7 +17,7 @@ namespace MikoBussBusinessLayer.Concrete
         }
         public void Create(Ticket entity)
         {
-            throw new NotImplementedException();
+            _ticketRepository.Create(entity);
         }
 
         public void Delete(Ticket entity)

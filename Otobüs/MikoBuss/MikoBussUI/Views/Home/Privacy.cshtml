@@ -1,6 +1,9 @@
-﻿@{
-    ViewData["Title"] = "Privacy Policy";
-}
-<h1>@ViewData["Title"]</h1>
+﻿@using MikoBussEntityLayer
+@model Ticket
 
-<p>Use this page to detail your site's privacy policy.</p>
+<div>
+    <input type="text" name="name" asp-for="@Model.TicketName" />
+    <input type="text" name="name" asp-for="@Model.TicketSurname" />
+    <input type="text" name="name" asp-for="@Model.TicketMail" />
+
+</div>

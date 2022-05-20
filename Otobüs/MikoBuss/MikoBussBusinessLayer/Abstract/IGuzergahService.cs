@@ -14,5 +14,7 @@ namespace MikoBussBusinessLayer
         void Update(Guzergah entity);
         List<Guzergah> GetAll();
         Guzergah GetById(int id);
+        public List<Guzergah> GetBusListByRoute(string nereden, string nereye);
+
     }
 }

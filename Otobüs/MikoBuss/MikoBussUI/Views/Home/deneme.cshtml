@@ -1,0 +1,10 @@
+﻿@using MikoBussEntityLayer
+<h1>    deneme1       </h1>
+
+@ViewData["Veri"] <br />    
+@ViewBag.Veri <br />    
+@TempData["Veri"]
+@foreach (var item in ViewBag.Veri2 as List<City>)
+{
+<h1>@item.CiytName</h1>
+}

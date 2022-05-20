@@ -9,6 +9,6 @@ namespace MikoBussDataAccessLayer.Abstract
 {
     public interface IGuzergahRepository : IRepository<Guzergah>
     {
-
+        public List<Guzergah> GetBusListByRoute(string nereden, string nereye);
     }
 }

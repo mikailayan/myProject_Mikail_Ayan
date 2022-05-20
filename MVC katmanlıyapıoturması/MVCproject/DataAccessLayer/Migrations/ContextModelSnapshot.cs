@@ -55,6 +55,21 @@ namespace DataAccessLayer.Migrations
                     b.ToTable("Products");
                 });
 
+            modelBuilder.Entity("EntityLayer.ProductCategory", b =>
+                {
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("CategoryId", "ProductId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("ProductCategory");
+                });
+
             modelBuilder.Entity("EntityLayer.Product", b =>
                 {
                     b.HasOne("EntityLayer.Category", "Category")
@@ -64,6 +79,25 @@ namespace DataAccessLayer.Migrations
                         .IsRequired();
 
                     b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("EntityLayer.ProductCategory", b =>
+                {
+                    b.HasOne("EntityLayer.Category", "Category")
+                        .WithMany()
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("EntityLayer.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
+
+                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("EntityLayer.Category", b =>
