@@ -1,34 +1,107 @@
 ﻿@model MikoBussUI.Models.BiletGuzergah
 
-
-
-<div class="form-group" style="display: inline;">
-    <form asp-action="index" class="form-inline">
-        <select name="nereden" class="form-select form-select-lg mb-3" asp-items="@ViewBag.Sehirler" style="width: 505px; height:53px;">
-            <option selected disabled>Nereden</option>
-        </select>
-        <i class="fas fa-long-arrow-alt-right" style="padding: 0px 20px; font-size: 22px;"></i>
-        <select name="nereye" class="form-select form-select-lg mb-3" asp-items="@ViewBag.Sehirler" style="width: 505px; height:53px;">
-            <option selected disabled>Nereye</option>
-        </select>
-        <button type="submit" class="btn btn-danger btn-lg btn-block">Yolculuk Bul</button>
-    </form>
-    <div>
-        @if (Model.Guzergahs != null)
-        {
-            @foreach (var item in Model.Guzergahs)
+@*<div class="form-group" style="display: inline;">
+        <form asp-action="index" class="form-inline">
+            <select name="nereden" class="form-select form-select-lg mb-3" asp-items="@ViewBag.Sehirler" style="width: 505px; height:53px;">
+                <option selected disabled>Nereden</option>
+            </select>
+            <i class="fas fa-long-arrow-alt-right" style="padding: 0px 20px; font-size: 22px;"></i>
+            <select name="nereye" class="form-select form-select-lg mb-3" asp-items="@ViewBag.Sehirler" style="width: 505px; height:53px;">
+                <option selected disabled>Nereye</option>
+            </select>
+            <button type="submit" class="btn btn-danger btn-lg btn-block">Yolculuk Bul</button>
+        </form>
+        <div>
+            @if (Model.Guzergahs != null)
             {
-                <div class="table-bordered">
-                    <h3>@item.GuzergahStart</h3>
-                    <h3>@item.GuzergahEnd</h3>
-                    <h3>@item.GuzergahTarihi</h3>
-                    <h3>@item.GuzargahFiyat</h3>
-                    <form asp-action="BiletAl" method="get" >
-                        <h3><button>seç</button></h3>
+                @foreach (var item in Model.Guzergahs)
+                {
+                    <div class="table-bordered">
+                        <h3>@item.GuzergahStart</h3>
+                        <h3>@item.GuzergahEnd</h3>
+                        <h3>@item.GuzergahTarihi</h3>
+                        <h3>@item.GuzargahFiyat</h3>
+                        <form asp-action="BiletAl" method="get" >
+                            <h3><button>seç</button></h3>
+                        </form>
+                    </div>
+                }
+            }
+
+        </div>
+    </div>*@
+<section>
+    <div class="banner-main">
+        <img src="images/banner.jpg" alt="#" />
+        <div class="container">
+            <div class="text-bg">
+                <h1>TÜRKİYE'DE<br><strong class="white">Büyüleyİcİ seyahatlar</strong></h1>
+                <div class="button_section"> <a class="main_bt" href="#">Read More</a>  </div>
+                <div class="container">
+                    <form class="main-form" asp-action="index">
+                        <h3>Seyehat Ara</h3>
+                        <div class="row">
+                            <div class="col-md-9">
+                                <div class="row">
+                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                                        <label>Nereden</label>
+                                        <select name="nereden" class="form-control" asp-items="@ViewBag.Sehirler">
+                                            <option selected disabled>Seç</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                                        <label>Nereye</label>
+                                        <select name="nereye" class="form-control" asp-items="@ViewBag.Sehirler">
+                                            <option selected disabled>Seç</option>
+                                        </select>
+
+                                    </div>
+                                    @*<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                                            <label>Min Price</label>
+                                            <input class="form-control" placeholder="00.0" type="text" name="00.0">
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                                            <label>Duration</label>
+                                            <input class="form-control" placeholder="Any" type="text" name="Any">
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                                            <label>Date</label>
+                                            <input class="form-control" placeholder="Any" type="date" name="Any">
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                                            <label>Max Price</label>
+                                            <input class="form-control" placeholder="00.0" type="text" name="00.0">
+                                        </div>*@
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+                                <button type="submit" class="btn btn-warning btn-lg ">Yolculuk Bul</button>
+                            </div>
+                        </div>
                     </form>
                 </div>
-            }
-        }
-
+            </div>
+        </div>
     </div>
-</div>
+</section>
+@if (Model.Guzergahs != null)
+{
+    @foreach (var item in Model.Guzergahs)
+    {
+        <div class="card" style="width: 18rem;">
+            <img src="~/images/Ankara-Fotoğrafları.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <form asp-action="BiletAl" method="get">
+                    <input type="hidden" name="GuzergahId" value="@item.GuzergahId" />
+                    <input type="hidden" name="nereye" value="@item.GuzergahEnd" />
+                    <input type="hidden" name="nereden" value="@item.GuzergahStart" />
+                    <h5 class="card-title text-success">@item.GuzergahStart>@item.GuzergahEnd</h5>
+                    <input type="hidden" name="GuzergahPrice" value="@item.GuzargahFiyat" />
+                    <h5 class="card-title">Fiyat: @item.GuzargahFiyat₺</h5>
+                    <h5 class="card-title">Tarih: @item.GuzergahTarihi</h5>
+                    <button type="submit" class="btn btn-warning btn-lg ">Yolculuk Bul</button>
+                </form>
+            </div>
+        </div>
+    }
+}

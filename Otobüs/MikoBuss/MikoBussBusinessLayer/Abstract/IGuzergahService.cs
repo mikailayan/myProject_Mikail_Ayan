@@ -15,6 +15,13 @@ namespace MikoBussBusinessLayer
         List<Guzergah> GetAll();
         Guzergah GetById(int id);
         public List<Guzergah> GetBusListByRoute(string nereden, string nereye);
+        public Guzergah GetPrice(string nereden, string nereye);
+
+        public List<Guzergah> GetNeredenNereye(string nereden, string nereye);
+        Guzergah GetGuzergahId(int id);
+
+
+
 
     }
 }

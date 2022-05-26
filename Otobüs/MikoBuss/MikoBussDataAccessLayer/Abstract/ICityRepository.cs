@@ -9,5 +9,8 @@ namespace MikoBussDataAccessLayer.Abstract
 {
     public interface ICityRepository : IRepository<City>
     {
+        public List<City> GetNereden (string nereden);
+        public List<City> GetNereye (string nereye);
+
     }
 }

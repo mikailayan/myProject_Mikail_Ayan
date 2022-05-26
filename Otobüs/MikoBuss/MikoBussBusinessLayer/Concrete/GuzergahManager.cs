@@ -40,6 +40,21 @@ namespace MikoBussBusinessLayer.Concrete
             throw new NotImplementedException();
         }
 
+        public Guzergah GetGuzergahId(int id)
+        {
+            return _guzergahRepository.GetGuzergahId(id);
+        }
+
+        public List<Guzergah> GetNeredenNereye(string nereden, string nereye)
+        {
+            return _guzergahRepository.GetNeredenNereye(nereden, nereye);
+        }
+
+        public Guzergah GetPrice(string nereden, string nereye)
+        {
+            return _guzergahRepository.GetPrice(nereden, nereye);
+        }
+
         public void Update(Guzergah entity)
         {
             throw new NotImplementedException();

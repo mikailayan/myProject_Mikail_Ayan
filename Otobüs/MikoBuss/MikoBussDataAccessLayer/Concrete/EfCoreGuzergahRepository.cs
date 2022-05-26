@@ -18,6 +18,45 @@ namespace MikoBussDataAccessLayer.Concrete
                 var neredenn = context
                     .Cities
                     .Where(i => i.CityId == Convert.ToInt32(nereden))
+                    .Select(i => i.CiytName).FirstOrDefault();
+
+                var nereyee = context
+                    .Cities
+                    .Where(i => i.CityId == Convert.ToInt32(nereye))
+                    .Select(i => i.CiytName).FirstOrDefault();
+                   
+                var xx = context
+                    .Guzergahs
+                    .Where(i => i.GuzergahStart == Convert.ToString(neredenn) && i.GuzergahEnd == Convert.ToString(nereyee))
+                    .ToList();
+                Console.WriteLine();
+                return xx;
+            }
+        }
+
+        public Guzergah GetGuzergahId(int id)
+        {
+            using (var context = new MikoBussContext())
+            {
+                return context
+                    .Guzergahs
+                    .Where(i => i.GuzergahId == id)
+                    .FirstOrDefault();
+            }
+        }
+
+        public List<Guzergah> GetNeredenNereye(string nereden, string nereye)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Guzergah GetPrice(string nereden, string nereye)
+        {
+            using (var context = new MikoBussContext())
+            {
+                var neredenn = context
+                    .Cities
+                    .Where(i => i.CityId == Convert.ToInt32(nereden))
                     .Select(i => i.CiytName)
                     .FirstOrDefault();
                 var nereyee = context
@@ -28,12 +67,9 @@ namespace MikoBussDataAccessLayer.Concrete
                 var xx = context
                     .Guzergahs
                     .Where(i => i.GuzergahStart == neredenn && i.GuzergahEnd == nereyee)
-                    .ToList();
-                Console.WriteLine();
+                    .FirstOrDefault();
                 return xx;
             }
-            
         }
-        
     }
 }

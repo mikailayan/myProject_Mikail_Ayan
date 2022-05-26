@@ -48,46 +48,28 @@ namespace MikoBussUI.Controllers
             ViewBag.Sehirler = new SelectList(sehirler.Cities, "CityId", "CiytName");
             return View(sehirler);
         }
-        public IActionResult Basarılı()
+    
+        public IActionResult BiletAl(int GuzergahId, int GuzergahPrice)
         {
-            return View();
+            BiletGuzergah biletGuzergah = new BiletGuzergah();
+            biletGuzergah.GuzergahId = GuzergahId;
+            biletGuzergah.GuzergahPrice = GuzergahPrice;
+            return View(biletGuzergah);
         }
-        public IActionResult NewTicket()
-        {
-            return View("privacy");
-        }
+
         [HttpPost]
-        public IActionResult NewTicket(Ticket ticket)
+        public IActionResult BiletAl(BiletGuzergah model, string nereden, string nereye)
         {
            
-            return RedirectToAction("Basarılı");
-        }
-        public IActionResult deneme()
-        {
-
-          var context= _cityService.GetAll();
-
-            ViewData["Veri"] = "Bu bir ViewData'da taşınan veridir.";
-            ViewBag.Veri = "Bu bir ViewBag'de taşınan veridir.";
-            TempData["Veri"] = "Bu bir TempDate'da taşınan veridir.";
-            ViewBag.Veri2 = context;
-            return View();
-        }
-        public IActionResult deneme2()
-        {
-            var ViewDataVeri = ViewData["Veri"];
-            var ViewBagVeri = ViewBag.Veri;
-            var TempDateVeri = TempData["Veri"];
-            return View();
-        }
-        public IActionResult BiletAl()
-        {
-            return View();
-        }
-
-        [HttpPost]
-        public IActionResult BiletAl(Ticket ticket)
-        {
+            var ticket = new Ticket()
+            {
+                TicketName = model.Ticket.TicketName,
+                TicketSurname = model.Ticket.TicketSurname,
+                TicketMail = model.Ticket.TicketMail,
+                GuzergahId= model.Ticket.GuzergahId,
+                
+           
+            };
             _ticketService.Create(ticket);
             return View();
         }

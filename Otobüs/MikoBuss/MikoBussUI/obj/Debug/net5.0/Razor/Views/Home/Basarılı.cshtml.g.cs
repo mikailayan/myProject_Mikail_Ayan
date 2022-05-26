@@ -26,8 +26,15 @@ using MikoBussUI.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\Views\_ViewImports.cshtml"
+using MikoBussEntityLayer;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"961b057828b8d7ce9004218ff70ff4e1e21d4aeb", @"/Views/Home/Basarılı.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8aff16a61b227245293d33c5fa44a5d87e4e2c47", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ffdc7004e1189196ab43d0c38255446a953c642a", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Basarılı : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
