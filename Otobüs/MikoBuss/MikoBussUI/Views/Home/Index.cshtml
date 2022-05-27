@@ -1,35 +1,5 @@
 ﻿@model MikoBussUI.Models.BiletGuzergah
 
-@*<div class="form-group" style="display: inline;">
-        <form asp-action="index" class="form-inline">
-            <select name="nereden" class="form-select form-select-lg mb-3" asp-items="@ViewBag.Sehirler" style="width: 505px; height:53px;">
-                <option selected disabled>Nereden</option>
-            </select>
-            <i class="fas fa-long-arrow-alt-right" style="padding: 0px 20px; font-size: 22px;"></i>
-            <select name="nereye" class="form-select form-select-lg mb-3" asp-items="@ViewBag.Sehirler" style="width: 505px; height:53px;">
-                <option selected disabled>Nereye</option>
-            </select>
-            <button type="submit" class="btn btn-danger btn-lg btn-block">Yolculuk Bul</button>
-        </form>
-        <div>
-            @if (Model.Guzergahs != null)
-            {
-                @foreach (var item in Model.Guzergahs)
-                {
-                    <div class="table-bordered">
-                        <h3>@item.GuzergahStart</h3>
-                        <h3>@item.GuzergahEnd</h3>
-                        <h3>@item.GuzergahTarihi</h3>
-                        <h3>@item.GuzargahFiyat</h3>
-                        <form asp-action="BiletAl" method="get" >
-                            <h3><button>seç</button></h3>
-                        </form>
-                    </div>
-                }
-            }
-
-        </div>
-    </div>*@
 <section>
     <div class="banner-main">
         <img src="images/banner.jpg" alt="#" />
@@ -84,24 +54,29 @@
         </div>
     </div>
 </section>
+
 @if (Model.Guzergahs != null)
-{
-    @foreach (var item in Model.Guzergahs)
     {
-        <div class="card" style="width: 18rem;">
-            <img src="~/images/Ankara-Fotoğrafları.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <form asp-action="BiletAl" method="get">
-                    <input type="hidden" name="GuzergahId" value="@item.GuzergahId" />
-                    <input type="hidden" name="nereye" value="@item.GuzergahEnd" />
-                    <input type="hidden" name="nereden" value="@item.GuzergahStart" />
-                    <h5 class="card-title text-success">@item.GuzergahStart>@item.GuzergahEnd</h5>
-                    <input type="hidden" name="GuzergahPrice" value="@item.GuzargahFiyat" />
-                    <h5 class="card-title">Fiyat: @item.GuzargahFiyat₺</h5>
-                    <h5 class="card-title">Tarih: @item.GuzergahTarihi</h5>
-                    <button type="submit" class="btn btn-warning btn-lg ">Yolculuk Bul</button>
-                </form>
+    <div class="row justify-content-around">
+        @foreach (var item in Model.Guzergahs)
+        {
+        <div class="col-3">
+            <div class="card" style="width: 18rem;">
+                <img src="~/images/Ankara-Fotoğrafları.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <form asp-action="BiletAl" method="get">
+                        <input type="hidden" name="GuzergahId" value="@item.GuzergahId" />
+                        <input type="hidden" name="nereye" value="@item.GuzergahEnd" />
+                        <input type="hidden" name="nereden" value="@item.GuzergahStart" />
+                        <h5 class="card-title text-success">@item.GuzergahStart>@item.GuzergahEnd</h5>
+                        <input type="hidden" name="GuzergahPrice" value="@item.GuzargahFiyat" />
+                        <h5 class="card-title">Fiyat: @item.GuzargahFiyat₺</h5>
+                        <h5 class="card-title">Tarih: @item.GuzergahTarihi</h5>
+                        <button type="submit" class="btn btn-warning btn-lg ">Yolculuk Bul</button>
+                    </form>
+                </div>
             </div>
         </div>
+        }
+    </div>
     }
-}

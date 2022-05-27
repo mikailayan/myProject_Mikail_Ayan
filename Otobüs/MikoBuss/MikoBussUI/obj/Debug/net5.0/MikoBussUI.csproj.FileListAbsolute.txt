@@ -72,8 +72,6 @@ F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\obj\Debug\net5.0\Mik
 F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\obj\Debug\net5.0\MikoBussUI.genruntimeconfig.cache
 F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\bin\Debug\net5.0\Humanizer.dll
 F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
-F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\obj\Debug\net5.0\Razor\Views\Home\Basarılı.cshtml.g.cs
-F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\obj\Debug\net5.0\Razor\Views\Home\BiletAl.cshtml.g.cs
 F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
 F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
 F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
@@ -154,3 +152,8 @@ F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\obj\Debug\net5.0\Raz
 F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\obj\Debug\net5.0\Razor\Views\LayoutPartial\_ScriptPartial.cshtml.g.cs
 F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\obj\Debug\net5.0\Razor\Views\LayoutPartial\_FooterPartial.cshtml.g.cs
 F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\obj\Debug\net5.0\Razor\Views\Hakkımızda\Index.cshtml.g.cs
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\obj\Debug\net5.0\Razor\Views\Home\BiletAl.cshtml.g.cs
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\obj\Debug\net5.0\Razor\Views\Home\Basarılı.cshtml.g.cs
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\obj\Debug\net5.0\Razor\Views\Turlar\Index.cshtml.g.cs
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\obj\Debug\net5.0\Razor\Views\Shared\Components\Guzergahs\Default.cshtml.g.cs
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\obj\Debug\net5.0\Razor\Views\Iletisim\Index.cshtml.g.cs

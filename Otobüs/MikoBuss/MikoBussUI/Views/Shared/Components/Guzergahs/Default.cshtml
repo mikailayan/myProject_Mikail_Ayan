@@ -1,0 +1,28 @@
+﻿@model MikoBussUI.Models.BiletGuzergah
+
+
+@if (Model.Guzergahs != null)
+{
+    <div class="row justify-content-around">
+        @foreach (var item in Model.Guzergahs)
+        {
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="~/images/Ankara-Fotoğrafları.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <form asp-action="BiletAl" method="get">
+                            <input type="hidden" name="GuzergahId" value="@item.GuzergahId" />
+                            <input type="hidden" name="nereye" value="@item.GuzergahEnd" />
+                            <input type="hidden" name="nereden" value="@item.GuzergahStart" />
+                            <h5 class="card-title text-success">@item.GuzergahStart>@item.GuzergahEnd</h5>
+                            <input type="hidden" name="GuzergahPrice" value="@item.GuzargahFiyat" />
+                            <h5 class="card-title">Fiyat: @item.GuzargahFiyat₺</h5>
+                            <h5 class="card-title">Tarih: @item.GuzergahTarihi</h5>
+                            <button type="submit" class="btn btn-warning btn-lg ">Yolculuk Bul</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}

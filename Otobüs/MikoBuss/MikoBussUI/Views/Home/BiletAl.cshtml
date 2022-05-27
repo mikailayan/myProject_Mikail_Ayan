@@ -1,14 +1,17 @@
 ﻿@model MikoBussUI.Models.BiletGuzergah
 
+
 <h1>Bilet alma</h1>
 <form asp-action="BiletAl" method="post">
     <input type="text" asp-for="@Model.Ticket.TicketName" placeholder="Adınızı giriniz" />
     <input type="text" asp-for="@Model.Ticket.TicketSurname" placeholder="Soyadınızı giriniz" />
     <input type="text" asp-for="@Model.Ticket.TicketSeatNo" placeholder="Koltuk numarası giriniz" />
-
     <input type="text" asp-for="@Model.Ticket.TicketMail" placeholder="Mailinizi giriniz" />
-    <label>guzergahid</label>
-    <input type="text" value="@Model.GuzergahId" asp-for="@Model.Ticket.GuzergahId"/>
-    @*<input type="text" asp-for="@Model.Ticket.TicketPrice" value="@Model.Guzergah.GuzargahFiyat" />*@
-    <button>Bilet Al</button>
+
+    <label>guzergahid</label> @* hidden yapılacaklar *@
+    <input type="text" value="@Model.GuzergahId" name="guzergahId" />
+    <input type="text" value="@Model.GuzergahPrice" name="fiyat" />
+    <input type="text" value="@Model.GuzergahStart" name="baslangıc" />
+    <input type="text" value="@Model.GuzerdahEnd" name="bitis" />
+    <button type="submit">Bilet Al</button>
 </form>

@@ -16,6 +16,9 @@ namespace MikoBussUI.Models
         public City city { get; set; }
         public int GuzergahId { get; set; }
         public int GuzergahPrice { get; set; }
+        public string GuzergahStart { get; set; }
+        public string GuzerdahEnd { get; set; }
+
 
     }
 }

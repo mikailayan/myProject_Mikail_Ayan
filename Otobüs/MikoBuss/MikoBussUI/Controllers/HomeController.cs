@@ -49,31 +49,41 @@ namespace MikoBussUI.Controllers
             return View(sehirler);
         }
     
-        public IActionResult BiletAl(int GuzergahId, int GuzergahPrice)
+        public IActionResult BiletAl(int GuzergahId, int GuzergahPrice, string nereden, string nereye)
         {
             BiletGuzergah biletGuzergah = new BiletGuzergah();
             biletGuzergah.GuzergahId = GuzergahId;
             biletGuzergah.GuzergahPrice = GuzergahPrice;
+            biletGuzergah.GuzergahStart = nereden;
+            biletGuzergah.GuzerdahEnd = nereye;
             return View(biletGuzergah);
         }
 
         [HttpPost]
-        public IActionResult BiletAl(BiletGuzergah model, string nereden, string nereye)
+        public IActionResult BiletAl(BiletGuzergah model, int guzergahId, decimal fiyat,string baslangıc, string bitis)
         {
-           
+
             var ticket = new Ticket()
             {
                 TicketName = model.Ticket.TicketName,
                 TicketSurname = model.Ticket.TicketSurname,
                 TicketMail = model.Ticket.TicketMail,
-                GuzergahId= model.Ticket.GuzergahId,
+                TicketSeatNo = model.Ticket.TicketSeatNo,
+                GuzergahId = guzergahId,
+                TicketPrice = fiyat,
+                TicketNereden = baslangıc,
+                TicketNereye = bitis,
+                
                 
            
             };
             _ticketService.Create(ticket);
+            return RedirectToAction("Basarılı");
+        }
+        public IActionResult Basarılı()
+        {
             return View();
         }
-
         
         
        

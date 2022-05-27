@@ -29,7 +29,6 @@ namespace MikoBussDataAccessLayer.Concrete
                     .Guzergahs
                     .Where(i => i.GuzergahStart == Convert.ToString(neredenn) && i.GuzergahEnd == Convert.ToString(nereyee))
                     .ToList();
-                Console.WriteLine();
                 return xx;
             }
         }

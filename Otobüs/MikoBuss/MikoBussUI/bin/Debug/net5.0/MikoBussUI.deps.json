@@ -37,6 +37,7 @@
           "Microsoft.EntityFrameworkCore.Design": "5.0.16",
           "Microsoft.EntityFrameworkCore.Sqlite": "5.0.16",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.16",
+          "Microsoft.VisualStudio.Web.CodeGeneration": "5.0.2",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "5.0.2",
           "MikoBussBusinessLayer": "1.0.0",
           "MikoBussDataAccessLayer": "1.0.0",
