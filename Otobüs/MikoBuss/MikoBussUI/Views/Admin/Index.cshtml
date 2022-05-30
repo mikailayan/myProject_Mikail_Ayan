@@ -1,0 +1,88 @@
+﻿@model IEnumerable<MikoBussEntityLayer.Ticket>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TicketId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TicketName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TicketSurname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TicketMail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TicketNereden)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TicketNereye)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TicketSeatNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TicketPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GuzergahId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TicketId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TicketName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TicketSurname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TicketMail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TicketNereden)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TicketNereye)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TicketSeatNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TicketPrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GuzergahId)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @*@Html.ActionLink("Delete", "Delete","Admin", new { ticketId=item.GuzergahId},  new { onclick = "return confirm('Bu bileti silmek istediğinize emin misiniz?');" }) )*@
+                <form asp-action="Delete" method="post">
+                    <input type="hidden" name="ticketId" value="@item.TicketId" />
+                    <button type="submit" class="btn btn-danger" onclick="return confirm('Bilet silinmesini onaylıyor musun?')">Delete</button>
+                </form>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

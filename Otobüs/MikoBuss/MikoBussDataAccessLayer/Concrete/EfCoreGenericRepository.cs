@@ -21,7 +21,11 @@ namespace MikoBussDataAccessLayer.Concrete
 
         public void Delete(TEntity entity)
         {
-            throw new NotImplementedException();
+            using (var context = new TContext())
+            {
+                context.Set<TEntity>().Remove(entity);
+                context.SaveChanges();
+            }
         }
 
         public List<TEntity> GetAll()
@@ -34,7 +38,10 @@ namespace MikoBussDataAccessLayer.Concrete
 
         public TEntity GetById(int id)
         {
-            throw new NotImplementedException();
+            using (var context = new MikoBussContext())
+            {
+                return context.Set<TEntity>().Find(id);
+            }
         }
 
         public void Update(TEntity entity)

@@ -155,5 +155,6 @@ F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\obj\Debug\net5.0\Raz
 F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\obj\Debug\net5.0\Razor\Views\Home\BiletAl.cshtml.g.cs
 F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\obj\Debug\net5.0\Razor\Views\Home\Basarılı.cshtml.g.cs
 F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\obj\Debug\net5.0\Razor\Views\Turlar\Index.cshtml.g.cs
-F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\obj\Debug\net5.0\Razor\Views\Shared\Components\Guzergahs\Default.cshtml.g.cs
 F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\obj\Debug\net5.0\Razor\Views\Iletisim\Index.cshtml.g.cs
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\obj\Debug\net5.0\Razor\Views\Admin\Index.cshtml.g.cs
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\obj\Debug\net5.0\Razor\Views\Shared\Components\Guzergah\Default.cshtml.g.cs

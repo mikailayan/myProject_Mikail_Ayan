@@ -1,12 +1,12 @@
 ﻿@model MikoBussUI.Models.BiletGuzergah
 
+
 <section>
     <div class="banner-main">
         <img src="images/banner.jpg" alt="#" />
         <div class="container">
             <div class="text-bg">
                 <h1>TÜRKİYE'DE<br><strong class="white">Büyüleyİcİ seyahatlar</strong></h1>
-                <div class="button_section"> <a class="main_bt" href="#">Read More</a>  </div>
                 <div class="container">
                     <form class="main-form" asp-action="index">
                         <h3>Seyehat Ara</h3>
@@ -55,28 +55,34 @@
     </div>
 </section>
 
+
+
 @if (Model.Guzergahs != null)
-    {
+{
     <div class="row justify-content-around">
         @foreach (var item in Model.Guzergahs)
         {
-        <div class="col-3">
-            <div class="card" style="width: 18rem;">
-                <img src="~/images/Ankara-Fotoğrafları.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <form asp-action="BiletAl" method="get">
-                        <input type="hidden" name="GuzergahId" value="@item.GuzergahId" />
-                        <input type="hidden" name="nereye" value="@item.GuzergahEnd" />
-                        <input type="hidden" name="nereden" value="@item.GuzergahStart" />
-                        <h5 class="card-title text-success">@item.GuzergahStart>@item.GuzergahEnd</h5>
-                        <input type="hidden" name="GuzergahPrice" value="@item.GuzargahFiyat" />
-                        <h5 class="card-title">Fiyat: @item.GuzargahFiyat₺</h5>
-                        <h5 class="card-title">Tarih: @item.GuzergahTarihi</h5>
-                        <button type="submit" class="btn btn-warning btn-lg ">Yolculuk Bul</button>
-                    </form>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="~/images/Ankara-Fotoğrafları.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <form asp-action="BiletAl" method="get">
+                            <input type="hidden" name="GuzergahId" value="@item.GuzergahId" />
+                            <input type="hidden" name="nereye" value="@item.GuzergahEnd" />
+                            <input type="hidden" name="nereden" value="@item.GuzergahStart" />
+                            <h5 class="card-title text-success">@item.GuzergahStart>@item.GuzergahEnd</h5>
+                            <input type="hidden" name="GuzergahPrice" value="@item.GuzargahFiyat" />
+                            <h5 class="card-title">Fiyat: @item.GuzargahFiyat₺</h5>
+                            <h5 class="card-title">Tarih: @item.GuzergahTarihi</h5>
+                            <button type="submit" class="btn btn-warning btn-lg ">Yolculuk Bul</button>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
         }
     </div>
-    }
+}
+else
+{
+    @await Component.InvokeAsync("Guzergah")
+}

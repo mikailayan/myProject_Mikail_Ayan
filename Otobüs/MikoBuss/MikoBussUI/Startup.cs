@@ -58,6 +58,11 @@ namespace MikoBussUI
 
             app.UseEndpoints(endpoints =>
             {
+                //endpoints.MapControllerRoute(
+                //    name: "admindelete",
+                //    pattern: "admin/delete",
+                //    defaults: new {controller="Admin", action="Delete", }
+                //    );
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");

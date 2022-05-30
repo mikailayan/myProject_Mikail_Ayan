@@ -22,7 +22,7 @@ namespace MikoBussBusinessLayer.Concrete
 
         public void Delete(Ticket entity)
         {
-            throw new NotImplementedException();
+            _ticketRepository.Delete(entity);
         }
 
         public List<Ticket> GetAll()
