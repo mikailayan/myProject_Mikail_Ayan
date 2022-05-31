@@ -1,17 +1,50 @@
 ﻿@model MikoBussUI.Models.BiletGuzergah
-
-
-<h1>Bilet alma</h1>
-<form asp-action="BiletAl" method="post">
-    <input type="text" asp-for="@Model.Ticket.TicketName" placeholder="Adınızı giriniz" />
-    <input type="text" asp-for="@Model.Ticket.TicketSurname" placeholder="Soyadınızı giriniz" />
-    <input type="text" asp-for="@Model.Ticket.TicketSeatNo" placeholder="Koltuk numarası giriniz" />
-    <input type="text" asp-for="@Model.Ticket.TicketMail" placeholder="Mailinizi giriniz" />
-
-    <label>guzergahid</label> @* hidden yapılacaklar *@
-    <input type="text" value="@Model.GuzergahId" name="guzergahId" />
-    <input type="text" value="@Model.GuzergahPrice" name="fiyat" />
-    <input type="text" value="@Model.GuzergahStart" name="baslangıc" />
-    <input type="text" value="@Model.GuzerdahEnd" name="bitis" />
-    <button type="submit">Bilet Al</button>
-</form>
+<section class="tm-banner">
+    <div class="tm-container-outer tm-banner-bg">
+        <div class="container">
+            <div class="row tm-banner-row tm-banner-row-header">
+                <div class="col-xs-12">
+                    <div class="tm-banner-header">
+                        <h2 class="text-uppercase tm-banner-title">Güzergah: @Model.GuzergahStart <span class="text-warning">></span> @Model.GuzerdahEnd</h2>
+                        <h3>Fiyat: <span class="font-weight-bold text-success">@Model.GuzergahPrice₺</span> </h3>
+                        <a href="javascript:void(0)" class="tm-down-arrow-link"><i class="fa fa-2x fa-angle-down tm-down-arrow"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row tm-banner-row" id="tm-section-search">
+                <form asp-action="BiletAl" method="post" class="tm-search-form tm-section-pad-2">
+                    <div class="form-row tm-search-form-row">
+                        <div class="form-group tm-form-group tm-form-group-pad tm-form-group-1">
+                            <label for="inputCity">Adınız:</label>
+                            <input asp-for="@Model.Ticket.TicketName" type="text" class="form-control"  placeholder="Adınızı giriniz...">
+                        </div>
+                        <div class="form-group tm-form-group tm-form-group-pad tm-form-group-1">
+                            <label for="inputCity">Soyadınız:</label>
+                            <input asp-for="@Model.Ticket.TicketSurname" type="text" class="form-control" placeholder="Soyadınızı giriniz...">
+                        </div>
+                        <div class="form-group tm-form-group tm-form-group-pad tm-form-group-1">
+                            <label for="inputCity">Koltuk Numarası</label>
+                            <input asp-for="@Model.Ticket.TicketSeatNo" type="text" class="form-control"  placeholder="Bilet numaranızı giriniz...">
+                        </div>
+                        <div class="form-group tm-form-group tm-form-group-pad tm-form-group-1">
+                            <label for="inputCity">Mail Adresi</label>
+                            <input asp-for="@Model.Ticket.TicketMail" type="text" class="form-control" placeholder="Mail adresinizi giriniz...">
+                        </div>
+                        <input type="hidden" value="@Model.GuzergahId" name="guzergahId" />
+                        <input type="hidden" value="@Model.GuzergahPrice" name="fiyat" />
+                        <input type="hidden" value="@Model.GuzergahStart" name="baslangıc" />
+                        <input type="hidden" value="@Model.GuzerdahEnd" name="bitis" />
+                    </div>
+                    <div class="form-row tm-search-form-row">
+                       
+                        <div class="form-group tm-form-group tm-form-group-pad tm-form-group-1">
+                            <label for="btnSubmit">&nbsp;</label>
+                            <button type="submit" class="btn btn-primary tm-btn tm-btn-search text-uppercase" id="btnSubmit">Bilet al</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="tm-banner-overlay"></div>
+        </div>
+    </div>
+</section>

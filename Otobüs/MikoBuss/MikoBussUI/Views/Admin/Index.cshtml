@@ -74,8 +74,8 @@
                 @Html.DisplayFor(modelItem => item.GuzergahId)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Edit", "Edit", new { id=item.TicketId }) |
+                @Html.ActionLink("Details", "Details", new { id = item.TicketId }) |
                 @*@Html.ActionLink("Delete", "Delete","Admin", new { ticketId=item.GuzergahId},  new { onclick = "return confirm('Bu bileti silmek istediğinize emin misiniz?');" }) )*@
                 <form asp-action="Delete" method="post">
                     <input type="hidden" name="ticketId" value="@item.TicketId" />

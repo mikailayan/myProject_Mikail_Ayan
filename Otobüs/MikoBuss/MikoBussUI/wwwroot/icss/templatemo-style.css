@@ -161,7 +161,7 @@ p:last-child { margin-bottom: 0; }
 select.tm-select.form-control:not([size]):not([multiple]) { height: 45px; }
 .form-control {
     font-size: 0.8rem;
-    padding: .75rem;
+   
 }
 label { font-weight: 700; }
 .tm-search-form {

@@ -31,5 +31,69 @@ namespace MikoBussUI.Controllers
             _ticketRepository.Delete(entity);
             return RedirectToAction("index");
         }
+        public IActionResult Create()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Create(Ticket ticket)
+        {
+            _ticketRepository.Create(ticket);
+            return RedirectToAction("index");
+        }
+        public IActionResult Edit(int id)
+        {
+            var entity = _ticketRepository.GetById(id);
+            var ticket = new Ticket()
+            {
+                TicketId=id,
+                TicketName = entity.TicketName,
+                TicketMail = entity.TicketMail,
+                TicketNereden = entity.TicketNereden,
+                TicketNereye = entity.TicketNereye,
+                TicketPrice = entity.TicketPrice,
+                TicketSeatNo= entity.TicketSeatNo,
+                TicketSurname= entity.TicketSurname,
+                GuzergahId = entity.GuzergahId,
+                
+            };
+            return View(ticket);
+        }
+        [HttpPost]
+        public IActionResult Edit(Ticket ticket)
+        {
+            var ticko = new Ticket()
+            {
+                TicketId = ticket.TicketId,
+                TicketName = ticket.TicketName,
+                TicketPrice = ticket.TicketPrice,
+                TicketNereden = ticket.TicketNereden,
+                TicketMail =  ticket.TicketMail,
+                TicketNereye = ticket.TicketNereye,
+                TicketSeatNo = ticket.TicketSeatNo,
+                TicketSurname = ticket.TicketSurname,
+                GuzergahId = ticket.GuzergahId,
+            };
+            _ticketRepository.Update(ticko);
+            return RedirectToAction("index");
+        }
+       public IActionResult Details(int id)
+        {
+            var entity = _ticketRepository.GetById(id);
+            var ticket = new Ticket()
+            {
+                TicketId = id,
+                TicketName = entity.TicketName,
+                TicketMail = entity.TicketMail,
+                TicketNereden = entity.TicketNereden,
+                TicketNereye = entity.TicketNereye,
+                TicketPrice = entity.TicketPrice,
+                TicketSeatNo = entity.TicketSeatNo,
+                TicketSurname = entity.TicketSurname,
+                GuzergahId = entity.GuzergahId,
+
+            };
+            return View(ticket);
+        }
     }
 }

@@ -1,0 +1,66 @@
+﻿@model MikoBussEntityLayer.Ticket
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Create</h1>
+
+<h4>Ticket</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="TicketName" class="control-label"></label>
+                <input asp-for="TicketName" class="form-control" />
+                <span asp-validation-for="TicketName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TicketSurname" class="control-label"></label>
+                <input asp-for="TicketSurname" class="form-control" />
+                <span asp-validation-for="TicketSurname" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TicketMail" class="control-label"></label>
+                <input asp-for="TicketMail" class="form-control" />
+                <span asp-validation-for="TicketMail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TicketNereden" class="control-label"></label>
+                <input asp-for="TicketNereden" class="form-control" />
+                <span asp-validation-for="TicketNereden" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TicketNereye" class="control-label"></label>
+                <input asp-for="TicketNereye" class="form-control" />
+                <span asp-validation-for="TicketNereye" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TicketSeatNo" class="control-label"></label>
+                <input asp-for="TicketSeatNo" class="form-control" />
+                <span asp-validation-for="TicketSeatNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TicketPrice" class="control-label"></label>
+                <input asp-for="TicketPrice" class="form-control" />
+                <span asp-validation-for="TicketPrice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GuzergahId" class="control-label"></label>
+                <input asp-for="GuzergahId" class="form-control" />
+                <span asp-validation-for="GuzergahId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
