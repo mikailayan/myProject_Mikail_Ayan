@@ -161,3 +161,8 @@ F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\obj\Debug\net5.0\Raz
 F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\obj\Debug\net5.0\Razor\Views\Admin\Create.cshtml.g.cs
 F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\obj\Debug\net5.0\Razor\Views\Admin\Edit.cshtml.g.cs
 F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\obj\Debug\net5.0\Razor\Views\Admin\Details.cshtml.g.cs
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
