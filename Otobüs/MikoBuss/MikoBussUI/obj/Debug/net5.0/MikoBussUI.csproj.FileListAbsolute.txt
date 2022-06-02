@@ -166,3 +166,6 @@ F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\bin\Debug\net5.0\Mic
 F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
 F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\obj\Debug\net5.0\Razor\Views\Account\ConfirmEmail.cshtml.g.cs

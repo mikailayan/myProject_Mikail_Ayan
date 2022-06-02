@@ -33,8 +33,15 @@ using MikoBussEntityLayer;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\Views\_ViewImports.cshtml"
+using Newtonsoft.Json;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c81448d46aabda33c28545473f4408fc43185d4a", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ffdc7004e1189196ab43d0c38255446a953c642a", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"19c7a059ae66fae6d6cdb998fb0984d097e4ef86", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<MikoBussUI.Models.BiletGuzergah>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("name", "nereden", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -85,7 +92,7 @@ using MikoBussEntityLayer;
                 <h1>TÜRKİYE'DE<br><strong class=""white"">Büyüleyİcİ seyahatlar</strong></h1>
                 <div class=""container"">
                     ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c81448d46aabda33c28545473f4408fc43185d4a7444", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c81448d46aabda33c28545473f4408fc43185d4a7633", async() => {
                 WriteLiteral(@"
                         <h3>Seyehat Ara</h3>
                         <div class=""row"">
@@ -94,9 +101,9 @@ using MikoBussEntityLayer;
                                     <div class=""col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12"">
                                         <label>Nereden</label>
                                         ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("select", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c81448d46aabda33c28545473f4408fc43185d4a8099", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("select", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c81448d46aabda33c28545473f4408fc43185d4a8288", async() => {
                     WriteLiteral("\r\n                                            ");
-                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c81448d46aabda33c28545473f4408fc43185d4a8411", async() => {
+                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c81448d46aabda33c28545473f4408fc43185d4a8600", async() => {
                         WriteLiteral("Seç");
                     }
                     );
@@ -139,9 +146,9 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.Items = ViewBag.Sehirler;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                                    </div>\r\n                                    <div class=\"col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12\">\r\n                                        <label>Nereye</label>\r\n                                        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("select", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c81448d46aabda33c28545473f4408fc43185d4a11947", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("select", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c81448d46aabda33c28545473f4408fc43185d4a12136", async() => {
                     WriteLiteral("\r\n                                            ");
-                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c81448d46aabda33c28545473f4408fc43185d4a12260", async() => {
+                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c81448d46aabda33c28545473f4408fc43185d4a12449", async() => {
                         WriteLiteral("Seç");
                     }
                     );
@@ -223,7 +230,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.Items = ViewBag.Sehirler;
 #line hidden
 #nullable disable
             WriteLiteral("            <div class=\"col-3\">\r\n                <div class=\"card\" style=\"width: 18rem;\">\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "c81448d46aabda33c28545473f4408fc43185d4a18204", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "c81448d46aabda33c28545473f4408fc43185d4a18393", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -239,7 +246,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.Items = ViewBag.Sehirler;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    <div class=\"card-body\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c81448d46aabda33c28545473f4408fc43185d4a19475", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c81448d46aabda33c28545473f4408fc43185d4a19664", async() => {
                 WriteLiteral("\r\n                            <input type=\"hidden\" name=\"GuzergahId\"");
                 BeginWriteAttribute("value", " value=\"", 3813, "\"", 3837, 1);
 #nullable restore

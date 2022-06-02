@@ -33,8 +33,15 @@ using MikoBussEntityLayer;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "F:\github\myProject_Mikail_Ayan\Otobüs\MikoBuss\MikoBussUI\Views\_ViewImports.cshtml"
+using Newtonsoft.Json;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d833e80cf7e009a61a74c80da5ef8fc71ec4ba78", @"/Views/Hakkımızda/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ffdc7004e1189196ab43d0c38255446a953c642a", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"19c7a059ae66fae6d6cdb998fb0984d097e4ef86", @"/Views/_ViewImports.cshtml")]
     public class Views_Hakkımızda_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

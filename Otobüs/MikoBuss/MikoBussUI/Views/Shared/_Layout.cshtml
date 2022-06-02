@@ -3,8 +3,19 @@
     @await Html.PartialAsync("~/Views/LayoutPartial/_HeadPartial.cshtml")
 <body>
     @await Html.PartialAsync("~/Views/LayoutPartial/_HeaderPartial.cshtml")
-  
-            @RenderBody()
+    @if (TempData["Message"] != null)
+    {
+        var message = JsonConvert.DeserializeObject<AlertMessage>(TempData["Message"] as String);
+        <div class="row">
+            <div class="col-md-12 alert">
+                <div class="alert alert-@message.AlertType">
+                    @message.Message
+                </div>
+            </div>
+        </div>
+    }
+
+    @RenderBody()
 
     @await Html.PartialAsync("~/Views/LayoutPartial/_FooterPartial.cshtml")
 
