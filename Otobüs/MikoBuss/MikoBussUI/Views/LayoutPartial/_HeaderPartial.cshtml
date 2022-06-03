@@ -7,16 +7,28 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="header_information">
-                            <ul class="d-flex justify-content-end" >
-                                <li>
-                                    <a asp-controller="Account" asp-action="Login">Login</a>
-                                </li>
-                                <li>
-                                    <a asp-controller="Account" asp-action="Register">Register</a>
-                                </li>
-                                <li>
-                                    <a asp-controller="Account" asp-action="Logout">Logout</a>
-                                </li>
+                            <ul class="d-flex justify-content-end">
+
+                                @if (User.Identity.IsAuthenticated)
+                                {
+                                    <li>
+                                        <a asp-controller="home" asp-action="index">@User.Identity.Name</a>
+                                    </li>
+                                    <li>
+                                        <a asp-controller="Account" asp-action="Logout">Logout</a>
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li>
+                                        <a asp-controller="Account" asp-action="Login">Login</a>
+                                    </li>
+                                    <li>
+                                        <a asp-controller="Account" asp-action="Register">Register</a>
+                                    </li>
+                                }
+
+
                             </ul>
                         </div>
                     </div>
@@ -37,11 +49,23 @@
                         <div class="limit-box">
                             <nav class="main-menu">
                                 <ul class="menu-area-main">
-                                    <li class="active"> <a asp-controller="Home" asp-action="Index">Anasayfa</a> </li>
-                                    <li> <a asp-controller="Hakkımızda" asp-action="Index">Hakkımızda</a> </li>
-                                    <li><a asp-controller="Turlar" asp-action="Index">Turlar</a> </li>
-                                    <li><a asp-controller="Iletisim" asp-action="Index">İletisim</a> </li>
-                                    <li><a asp-controller="Admin" asp-action="Index">Admin Control</a> </li>
+                                    @if (User.Identity.IsAuthenticated)
+                                    {
+                                        <li class="active"> <a asp-controller="Home" asp-action="Index">Anasayfa</a> </li>
+                                        <li> <a asp-controller="Hakkımızda" asp-action="Index">Hakkımızda</a> </li>
+                                        <li><a asp-controller="Turlar" asp-action="Index">Turlar</a> </li>
+                                        <li><a asp-controller="Iletisim" asp-action="Index">İletisim</a> </li>
+                                        <li><a asp-controller="Admin" asp-action="Index">Admin Control</a> </li>
+                                    }
+                                    else
+                                    {
+                                        <li class="active"> <a asp-controller="Home" asp-action="Index">Anasayfa</a> </li>
+                                        <li> <a asp-controller="Hakkımızda" asp-action="Index">Hakkımızda</a> </li>
+                                        <li><a asp-controller="Turlar" asp-action="Index">Turlar</a> </li>
+                                        <li><a asp-controller="Iletisim" asp-action="Index">İletisim</a> </li>
+                                    }
+
+
                                 </ul>
                             </nav>
                         </div>

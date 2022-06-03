@@ -8,7 +8,7 @@
             <div class="text-bg">
                 <h1>TÜRKİYE'DE<br><strong class="white">Büyüleyİcİ seyahatlar</strong></h1>
                 <div class="container">
-                    <form class="main-form" asp-action="index">
+                    <form class="main-form" asp-controller="Home" asp-action="index">
                         <h3>Seyehat Ara</h3>
                         <div class="row">
                             <div class="col-md-9">
@@ -73,7 +73,7 @@
                             <h5 class="card-title text-success">@item.GuzergahStart>@item.GuzergahEnd</h5>
                             <input type="hidden" name="GuzergahPrice" value="@item.GuzargahFiyat" />
                             <h5 class="card-title">Fiyat: @item.GuzargahFiyat₺</h5>
-                            <h5 class="card-title">Tarih: @item.GuzergahTarihi</h5>
+                            <h5 class="card-title">Tarih: @(((DateTime)item.GuzergahTarihi).ToString("dd-MMM-yyyy"))</h5>
                             <button type="submit" class="btn btn-warning btn-lg ">Yolculuk Bul</button>
                         </form>
                     </div>
@@ -84,5 +84,6 @@
 }
 else
 {
-    
+<h1>merhaba</h1>
 }
+@*@await Component.InvokeAsync("Guzergah")*@

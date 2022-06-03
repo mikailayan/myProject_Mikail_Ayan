@@ -121,6 +121,11 @@ namespace MikoBussUI.Controllers
             CreateMessage("Hesabınız onaylanamadı. Lütfen bilgileri kontrol ederek, yeniden deneyiniz!", "warning");
             return View();
         }
+        public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
+            return Redirect("~/");
+        }
 
 
         private void CreateMessage(string message, string alertType)

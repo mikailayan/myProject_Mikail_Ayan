@@ -5,14 +5,14 @@
             <div class="row tm-banner-row tm-banner-row-header">
                 <div class="col-xs-12">
                     <div class="tm-banner-header">
-                        <h2 class="text-uppercase tm-banner-title">Güzergah: @Model.GuzergahStart <span class="text-warning">></span> @Model.GuzerdahEnd</h2>
+                        <h2 class="text-uppercase tm-banner-title">@Model.GuzergahStart <span class="text-warning">></span> @Model.GuzerdahEnd</h2>
                         <h3>Fiyat: <span class="font-weight-bold text-success">@Model.GuzergahPrice₺</span> </h3>
                         <a href="javascript:void(0)" class="tm-down-arrow-link"><i class="fa fa-2x fa-angle-down tm-down-arrow"></i></a>
                     </div>
                 </div>
             </div>
             <div class="row tm-banner-row" id="tm-section-search">
-                <form asp-action="BiletAl" method="post" class="tm-search-form tm-section-pad-2">
+                <form asp-action="BiletAl" asp-controller="Home" method="post" class="tm-search-form tm-section-pad-2">
                     <div class="form-row tm-search-form-row">
                         <div class="form-group tm-form-group tm-form-group-pad tm-form-group-1">
                             <label for="inputCity">Adınız:</label>
